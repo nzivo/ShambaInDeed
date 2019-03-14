@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Link, NavLink } from 'react-router-dom';
+import { HashRouter as Router, Route, NavLink } from 'react-router-dom';
 import SignUpForm from './pages/SignUpForm';
 import SignInForm from './pages/SignInForm';
 
@@ -8,7 +8,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Router basename="/react-auth-ui/">
+      <Router basename="">
         <div className="App">
           <div className="App__Aside"></div>
           <div className="App__Form">
