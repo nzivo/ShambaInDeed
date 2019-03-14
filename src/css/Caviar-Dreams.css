@@ -1,0 +1,14 @@
+/* Caviar Dreams */
+  @font-face {
+    font-family: 'Caviar Dreams';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Caviar-Dreams/CaviarDreams-webfont.eot');/* IE9 Compat Modes */
+    src: local('Caviar Dreams'), local('Caviar-Dreams-Regular'),
+         url('../fonts/Caviar-Dreams/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),/* IE6-IE8 */
+         /* url('../fonts/Caviar-Dreams/CaviarDreams-webfont.woff2') format('woff2'), Super Modern Browsers */
+         url('../fonts/Caviar-Dreams/CaviarDreams-webfont.woff') format('woff'),/* Modern Browsers */
+         url('../fonts/Caviar-Dreams/CaviarDreams-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Caviar-Dreams/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');/* Legacy iOS */
+
+}
